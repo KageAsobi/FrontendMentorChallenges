@@ -1,0 +1,19 @@
+# Frontend Mentor
+*.fig
+*.sketch
+*.xd
+
+# Logs
+*.log
+logs
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+
+# Local Directories
+dist
+node_modules
+resources

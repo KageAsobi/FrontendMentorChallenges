@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A solution to the Results Summary Component challenge on Frontend Mentor.">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="preload" href="/fonts/static/HankenGrotesk-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/fonts/static/HankenGrotesk-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/fonts/static/HankenGrotesk-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <title>Frontend Mentor | Results Summary Component</title>
+    <style>
+      @import 'style.css';
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Results Summary</h1>
+      <section id="result">
+        <h2>Your Result</h2>
+        <div>
+          <p>76</p>
+          <p>of 100</p>
+        </div>
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </section>
+      <section id="summary">
+        <h2>Summary</h2>
+        <div>
+          <div class="category red">
+            <img src="/images/icon-reaction.svg" alt="Reaction Icon" width="20" height="20" />
+            <h3>Reaction</h3>
+            <p>80<span> / 100</span></p>
+          </div>
+          <div class="category orange">
+            <img src="/images/icon-memory.svg" alt="Memory Icon" width="20" height="20" />
+            <h3>Memory</h3>
+            <p>92<span> / 100</span></p>
+          </div>
+          <div class="category green">
+            <img src="/images/icon-verbal.svg" alt="Verbal Icon" width="20" height="20" />
+            <h3>Verbal</h3>
+            <p>61<span> / 100</span></p>
+          </div>
+          <div class="category blue">
+            <img src="/images/icon-visual.svg" alt="Visual Icon" width="20" height="20" />
+            <h3>Visual</h3>
+            <p>72<span> / 100</span></p>
+          </div>
+        </div>
+        <button>Continue</button>
+      </section>
+    </main>
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" aria-label="Frontend Mentor (opens in a new tab)">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/KageAsobi" target="_blank" aria-label="KageAsobi (opens in a new tab)">KageAsobi</a>.
+    </footer>
+  </body>
+</html>

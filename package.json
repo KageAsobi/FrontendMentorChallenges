@@ -1,0 +1,24 @@
+{
+  "name": "results-summary-component",
+  "description": "A solution to the Results Summary Component challenge on Frontend Mentor.",
+  "author": {
+    "name": "KageAsobi",
+    "email": "KageAsobi@proton.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KageAsobi/results-summary-component.git"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "globby": "13.1.3",
+    "vite": "4.1.4"
+  }
+}
